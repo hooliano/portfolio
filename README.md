@@ -1,7 +1,5 @@
 # Portfolio Template
 
-A one-page portfolio you can personalize in about 20 minutes. Plain HTML and CSS: no installs, no build step, no frameworks.
-
 ```
 portfolio-template/
 ├── index.html    your content: text, links, projects
@@ -48,11 +46,6 @@ To change fonts, pick a pair on [Google Fonts](https://fonts.google.com), replac
 
 ## 5. Put it online
 
-**Netlify (fastest).**
-1. Go to [app.netlify.com/drop](https://app.netlify.com/drop) and sign in.
-2. Drag your whole `portfolio-template` folder onto the page.
-3. You get a live link in seconds. Rename it under **Site configuration → Change site name**.
-
 **GitHub Pages.**
 1. Push the project to a GitHub repo.
 2. Go to **Settings → Pages**.
@@ -60,34 +53,3 @@ To change fonts, pick a pair on [Google Fonts](https://fonts.google.com), replac
 4. After about a minute, your site is at `https://your-username.github.io/repo-name/`.
 
 Put the link on your resume, LinkedIn, and GitHub profile.
-
-## 6. Using AI on this template
-
-Good prompts include **context** (what you have), a **goal** (what you want), and **constraints** (what to leave alone). Try these:
-
-- *"Here is my `style.css`. Change the accent color to a deep green and keep all text readable. Only edit the `:root` section."*
-- *"Make the project cards show two columns on tablets and one on phones. Explain every line you change."*
-- *"Here are my About paragraphs and some facts about me: [paste]. Tighten them to under 80 words."* Then rewrite the result in your own voice.
-- *"My photo isn't showing. Here is my folder structure and my `<img>` tag: [paste both]."*
-- *"Explain `grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr))` in plain English."*
-
-Three rules:
-1. When something breaks, paste the exact error or a screenshot, not "it doesn't work."
-2. Run the code and read it before you keep it.
-3. If you can't explain a line, don't ship it. Ask the AI to explain it first.
-
-Never paste passwords, API keys, or anything private into an AI tool.
-
-## Troubleshooting
-
-| Problem | Fix |
-|---|---|
-| Image doesn't show | The path and capitalization must match exactly. `images/Me.jpg` and `images/me.jpg` are different files once the site is online. |
-| CSS changes don't appear | Save the file, then hard refresh (Ctrl+Shift+R). Confirm `index.html` still has `<link rel="stylesheet" href="style.css">`. |
-| Fonts look different | Fonts load from Google Fonts, so they need an internet connection. |
-| Site is blank after deploying | `index.html` must be at the top level of the folder you uploaded, not inside another folder. |
-| Page looks broken after an edit | Undo with Ctrl+Z, or ask an AI to find the problem: paste the section you changed. |
-
-## What's next
-
-Part 2 of the workshop redesigns this site in Figma and rebuilds it in React, so keep your finished version.
